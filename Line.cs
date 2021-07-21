@@ -28,7 +28,7 @@ namespace LineComparison
             Console.WriteLine("the length of the second line is:" + lenth2);
             if (lenth1>lenth2)
                 Console.WriteLine("first line is greter");
-            else if(lenth1>lenth2)
+            else if(lenth1<lenth2)
                 Console.WriteLine("second line is greter");
             else
                 Console.WriteLine("both lines are equal");
